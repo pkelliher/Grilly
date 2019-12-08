@@ -1,0 +1,53 @@
+/* I don't think we need any of this code bc it was all logo-related */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: black;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.navbar-fixed {
+  color: black;
+}
+
+/* This controls the responsive carousel */
+.carousel-item, .carousel-item.active {
+  align-items:center;
+}
+
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+body {
+  font-family: 'Oxygen';
+}
+
+.fa-gripfire {
+  color: #ff5100;
+}
+
+.centered-content {
+  justify-content: center;
+}
+.rc-calendar-table {
+  margin: 0 auto;
+}
